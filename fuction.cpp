@@ -1,3 +1,4 @@
+//this one is out of date!
 #include<iostream>
 #include<string>
 #include<cmath>
@@ -5,14 +6,14 @@ using namespace std;
 int main() {
 	string function;
 	cin >> function;
-	string s1 = "#" + function + "#";//·½³Ì×Ö·û´®
+	string s1 = "#" + function + "#";//æ–¹ç¨‹å­—ç¬¦ä¸²
 	int constnum[2] = { 0 };
 	int constx[2] = { 0 };
 	char a=' ';
-	int count = 0;//¸¨Öú¼ÆÊý
-	int ans = 0;//µ¥ÏîÇóºÍ
-	int sumnum = 0;//³£ÊýÏî
-	int sumx = 0;//ÏµÊý
+	int count = 0;//è¾…åŠ©è®¡æ•°
+	int ans = 0;//å•é¡¹æ±‚å’Œ
+	int sumnum = 0;//å¸¸æ•°é¡¹
+	int sumx = 0;//ç³»æ•°
 	for (int i = s1.size(); i > 0; i--) {
 		
 		if ((s1[i] <= 'Z' && s1[i] >= 'A') || (s1[i] <= 'z' && s1[i] >= 'a')) {
